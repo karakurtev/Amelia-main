@@ -11,14 +11,56 @@
     <div class="wrapper">
         <div class="container">
             <div class="in">
-                <div class="in_switch">
+                <div class="in_switch ">
                     <input id="switch" type="checkbox">
-                    <label for="switch">
+                    <label class="cursor" for="switch">
                         <span>Вход</span>
                         <span>Регистрация</span>
                     </label>   
-                </div>        
-            </div>
+                </div>
+                <h1>Вход</h1>
+                <section class="login">
+                    <input type="text" name="email" placeholder="Введите E-mail">
+                    <input type="password" required  placeholder="Пароль">
+                </section>
+                <section class="select">
+                    <p>                
+                        <input type="checkbox" id="remember">
+                        <label class="cursor"  for="remember">Запомнить меня</label>
+                    </p>
+                    <a class="green" href="#">Забыли пароль?</a>
+                </section>
+                <section class="enter">
+                    <input class="cursor" type="button" value="Вход">
+                </section>
+                <section class="regisrtation">
+                    <a class="green decor_none" href="#">Еще нет аккаунта? </a>
+                    <a class="wight" href="#">Зарегистрироваться</a>
+                </section>
+                <a class="green decor_none" href="#">Или войдите через</a>
+                <ul class="icons">
+                    <li>
+                        <a href="#">
+                            <svg class="icon">
+					            <use href="images/sprite.svg#facebook"></use>
+				            </svg>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="icon">
+					            <use href="images/sprite.svg#instagram"></use>
+				            </svg>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="icon">
+					            <use href="images/sprite.svg#in"></use>
+				            </svg>
+                        </a>                        
+                    </li>
+            </div>            
         </div>
 
     </div>            
